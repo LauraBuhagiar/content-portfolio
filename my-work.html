@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work - Laura Buhagiar</title>
+    
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts for 'Quicksand' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Apply custom fonts and colors */
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background-color: #FDF8F6; /* A soft, warm off-white */
+            color: #44403c; /* stone-700 for default text */
+        }
+        /* Custom button style */
+        .btn-custom {
+            background-color: #6F635B;
+            color: #FDF8F6;
+            transition: background-color 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #574d46;
+        }
+        /* Style for the active navigation link */
+        .nav-active {
+            font-weight: bold;
+            color: #1c1917; /* stone-900 */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Header and Navigation -->
+    <header class="w-full max-w-7xl mx-auto px-6 sm:px-8 py-6">
+        <nav class="flex justify-between items-center">
+            <div>
+                <a href="index.html" class="text-xl font-bold text-stone-800">Laura Buhagiar</a>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html" class="text-stone-700 hover:text-stone-900 transition">Home</a>
+                <a href="about-me.html" class="text-stone-700 hover:text-stone-900 transition">About Me</a>
+                <a href="my-work.html" class="text-stone-700 hover:text-stone-900 transition nav-active">My Work</a>
+                <a href="getintouch.html" class="text-stone-700 hover:text-stone-900 transition">Get in touch</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-stone-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content: Portfolio Sections -->
+    <main class="w-full">
+        
+        <!-- Section: Social Media Content -->
+        <section class="w-full max-w-7xl mx-auto px-6 sm:px-8 py-16 md:py-24 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-stone-800">Social Media Content and Design</h2>
+            <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <img src="https://d1vpxlyg2m71rm.cloudfront.net/?k=cl846cjqu006209mhuqz0980d%2Fcme42c1um000l04led0s48xhn.jpeg&w=3840" alt="Social media post 1" class="rounded-lg shadow-lg w-full object-cover">
+                <img src="https://d1vpxlyg2m71rm.cloudfront.net/?k=cl846cjqu006209mhuqz0980d%2Fcme42cb46000m04le2qakhzrl.jpeg&w=3840" alt="Social media post 2" class="rounded-lg shadow-lg w-full object-cover">
+                <img src="https://d1vpxlyg2m71rm.cloudfront.net/?k=cl846cjqu006209mhuqz0980d%2Fcme42cka9000l04kyemr31ptu.jpeg&w=3840ß" alt="Social media post 3" class="rounded-lg shadow-lg w-full object-cover">
+                <img src="https://d1vpxlyg2m71rm.cloudfront.net/?k=cl846cjqu006209mhuqz0980d%2Fcme42csth000m04ky13zg9aa5.jpeg&w=3840" alt="Social media post 4" class="rounded-lg shadow-lg w-full object-cover">
+            </div>
+        </section>
+
+        <!-- Section: Promotional Image Grid -->
+        <section class="w-full max-w-5xl mx-auto px-6 sm:px-8 pt-16 md:pt-24">
+             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <img src="https://d1vpxlyg2m71rm.cloudfront.net/?k=cl846cjqu006209mhuqz0980d%2Fcl84k4xhg001409mf5jka0mw0.png&w=3840" alt="Promotional image" class="rounded-lg shadow-md w-full h-full object-cover">
+                <img src="https://copyfolio.s3.us-east-1.amazonaws.com/cl846cjqu006209mhuqz0980d/cl84ka0it000c09lc6heq85bd.jpeg" alt="Giveaway post" class="rounded-lg shadow-md w-full h-full object-cover">
+                <img src="https://d1vpxlyg2m71rm.cloudfront.net/?k=cl846cjqu006209mhuqz0980d%2Fcl84ka96z000d09lc3kn8es48.jpeg&w=3840" alt="Rules post" class="rounded-lg shadow-md w-full h-full object-cover">
+            </div>
+        </section>
+
+        <!-- Section: Floral & Cards -->
+        <section class="w-full max-w-5xl mx-auto px-6 sm:px-8 py-16 md:py-24 text-center">
+             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <img src="https://d1vpxlyg2m71rm.cloudfront.net/?k=cl846cjqu006209mhuqz0980d%2Fcl84ko5ry000m09lccij89u2o.png&w=3840" class="rounded-lg shadow-md w-full h-full object-cover">
+                <img src="https://copyfolio.s3.us-east-1.amazonaws.com/cl846cjqu006209mhuqz0980d/cl84kojck000n09lc28px595e.png" class="rounded-lg shadow-md w-full h-full object-cover">
+                <img src="https://d1vpxlyg2m71rm.cloudfront.net/?k=cl846cjqu006209mhuqz0980d%2Fcl84kpgcl000u09l6bmaj1gqm.jpeg&w=3840" class="rounded-lg shadow-md w-full h-full object-cover">
+            </div>
+        </section>
+
+        <!-- Section: Slime Restock -->
+        <section class="w-full max-w-4xl mx-auto px-6 sm:px-8 py-16 md:py-24 text-center">
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-8">
+                <img src="https://d1vpxlyg2m71rm.cloudfront.net/?k=cl846cjqu006209mhuqz0980d%2Fcl84jtif5000d09l61x3hecf2.png&w=3840" alt="Slime restock banner 1" class="rounded-lg shadow-lg w-96">
+                <img src="https://d1vpxlyg2m71rm.cloudfront.net/?k=cl846cjqu006209mhuqz0980d%2Fcl84ju3wa000e09l60ulj8dxv.png&w=3840" alt="Slime restock banner 1" class="rounded-lg shadow-lg w-96">
+            </div>
+        </section>
+
+        <!-- Section: Copy Title -->
+        <section class="w-full max-w-7xl mx-auto px-6 sm:px-8 pt-16 md:pt-24 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-stone-800">Copy</h2>
+        </section>
+
+        <!-- Section: Website Copywriting -->
+        <section class="w-full max-w-7xl mx-auto px-6 sm:px-8 pt-12 pb-16 md:pb-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="text-center md:text-left">
+                    <h3 class="text-3xl md:text-4xl font-bold text-stone-800">Website Copywriting</h3>
+                    <p class="mt-4 text-stone-600">Here you can find a sample of my website copywriting that I created myself for my own little craft business.</p>
+                    <a href="#" class="mt-2 text-stone-500 hover:text-stone-800 underline break-all">https://buhagiarlaura.wixsite.com/kraftydoodlesco</a>
+                </div>
+                <div class="flex justify-center items-center">
+                    <img src="https://d1vpxlyg2m71rm.cloudfront.net/?k=cl846cjqu006209mhuqz0980d%2Fcl84l585m000r09lcglb19azp.png&w=3840" alt="Krafty Doodles Logo" class="rounded-lg shadow-xl w-full max-w-sm object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Reusable Component for Writing Samples -->
+        <div class="space-y-1">
+            <!-- Blog Copy Sample -->
+            <section class="w-full max-w-7xl mx-auto px-6 sm:px-8 py-12">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-2xl md:text-3xl font-bold text-stone-800">Blog Copy sample for National Geographic Writing Competition</h3>
+                        <button class="mt-6 btn-custom font-bold py-3 px-8 rounded-md shadow-md hover:shadow-lg">CLICK HERE</button>
+                    </div>
+                    <img src="https://imgs.search.brave.com/AZbkbjkdBKdES0R3K3sdrIPgwIOCcGU16dMZlPWEBMw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU3/Nzc0NTgyL3Bob3Rv/L25hdGlvbmFsLWdl/b2dyYXBoaWMtY292/ZXItY2xvc2UtdXAu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVk3OEg1ZHNQNGNE/akQzM2lzVW9ONVli/dGQ5SzV3dzFJbGtB/SU1Bcmt3Zjg9" class="rounded-lg shadow-xl w-full object-cover">
+                </div>
+            </section>
+            <!-- Theatre Review -->
+            <section class="w-full max-w-7xl mx-auto px-6 sm:px-8 py-12">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-2xl md:text-3xl font-bold text-stone-800">Theatre Review Writing</h3>
+                        <button class="mt-6 btn-custom font-bold py-3 px-8 rounded-md shadow-md hover:shadow-lg">CLICK HERE</button>
+                    </div>
+                     <img src="https://imgs.search.brave.com/FtVEnidnXK4DPfElLghGANg_pdEZriqerzC0dnfYbME/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/d2VzdGVuZHRoZWF0/cmUuY29tL3dwLWNv/bnRlbnQvZ2FsbGVy/eS9jcnktYmFieS1w/aG90b3MtYXJjb2xh/L0NvcHktb2YtX0NG/UDk2NTMtRW5oYW5j/ZWQtTlIuanBn" alt="Empty theatre seats" class="rounded-lg shadow-xl w-full object-cover">
+                </div>
+            </section>
+            <!-- Essay-style Writing -->
+            <section class="w-full max-w-7xl mx-auto px-6 sm:px-8 py-12">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-2xl md:text-3xl font-bold text-stone-800">Essay-style Writing</h3>
+                        <button class="mt-6 btn-custom font-bold py-3 px-8 rounded-md shadow-md hover:shadow-lg">CLICK HERE</button>
+                    </div>
+                    <img src="https://imgs.search.brave.com/ujDP0Fr1m7ZsBMNJMDjDhZfldjpEDxuBFcEoOsnQRqI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzQ5LzEyLzgz/LzM2MF9GXzI0OTEy/ODMyNF9hT0I1QnVy/R2h1aUczRkkydXBs/aHVCbHo1TlZVNGN5/VS5qcGc" alt="Laptop showing an essay" class="rounded-lg shadow-xl w-full object-cover">
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- Footer Badge -->
+    <div class="fixed bottom-4 right-4">
+        <a href="#" class="bg-white px-3 py-2 rounded-lg shadow-md text-sm text-stone-600 font-semibold flex items-center space-x-2 hover:shadow-lg transition">
+            <span>⚡️</span>
+            <span>Made with Copyfolio</span>
+        </a>
+    </div>
+
+</body>
+</html>

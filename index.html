@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura Buhagiar - Copywriter</title>
+    
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts for 'Quicksand' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Apply the Quicksand font family to the whole page */
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background-color: #FDF8F6; /* A soft, warm off-white similar to the image */
+            color: #44403c; /* stone-700 for default text */
+        }
+        /* Custom button style to match the image */
+        .btn-custom {
+            background-color: #6F635B; /* A custom brownish color */
+            color: #FDF8F6;
+            transition: background-color 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #574d46;
+        }
+        /* Style for the active navigation link */
+        .nav-active {
+            font-weight: bold;
+            color: #1c1917; /* stone-900 */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Header and Navigation -->
+    <header class="w-full max-w-7xl mx-auto px-6 sm:px-8 py-6">
+        <nav class="flex justify-between items-center">
+            <!-- Name/Logo on the left -->
+            <div>
+                <a href="#" class="text-xl font-bold text-stone-800">Laura Buhagiar</a>
+            </div>
+            <!-- Navigation Links on the right -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#" class="text-stone-700 hover:text-stone-900 transition nav-active">Home</a>
+                <a href="about-me.html" class="text-stone-700 hover:text-stone-900 transition">About Me</a>
+                <a href="my-work.html" class="text-stone-700 hover:text-stone-900 transition">My Work</a>
+                <a href="getintouch.html" class="text-stone-700 hover:text-stone-900 transition">Get in touch</a>
+            </div>
+            <!-- Mobile Menu Button (Hamburger) -->
+            <div class="md:hidden">
+                <button class="text-stone-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="flex-grow w-full max-w-7xl mx-auto px-6 sm:px-8 py-8 md:py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            
+            <!-- Left Column: Text Content -->
+            <div class="flex flex-col justify-center text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-bold text-stone-800 leading-tight">
+                    Copywriter and Social Media Content Creator
+                </h1>
+                <p class="mt-6 text-2xl text-stone-600">
+                    Ready to hop on your next project.
+                </p>
+                <div class="mt-10">
+                    <button class="btn-custom font-bold py-3 px-8 rounded-md shadow-md hover:shadow-lg">
+                        GET IN TOUCH
+                    </button>
+                </div>
+                <hr class="mt-12 border-stone-300">
+            </div>
+
+            <!-- Right Column: Image -->
+            <div class="flex justify-center items-center">
+                <img 
+                    src="https://d1vpxlyg2m71rm.cloudfront.net/?k=cl846cjqu006209mhuqz0980d%2Fcropped_cl847bzrs000b09lcflup682w.jpeg&w=828" 
+                    alt="Portrait of Laura Buhagiar" 
+                    class="rounded-lg shadow-2xl w-full max-w-sm md:max-w-md object-cover"
+                    onerror="this.onerror=null;this.src='https://placehold.co/500x600/e0e0e0/757575?text=Image+Not+Found';"
+                >
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
